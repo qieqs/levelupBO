@@ -6,15 +6,10 @@ public class LevelSpawnPoint : MonoBehaviour
 {
     PlayerLifeSupport playerlife;
     [HideInInspector] public ParticleSystem particles;
-    private bool particlespresent;
     void Start()
     {
         playerlife = FindObjectOfType<PlayerLifeSupport>();
         particles = GetComponentInChildren<ParticleSystem>();  
-        if(particles == null)
-        {
-            particlespresent = false;
-        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -22,7 +17,10 @@ public class LevelSpawnPoint : MonoBehaviour
         if (other.tag == "Player")
         {
             playerlife.currspawnpoint = this.transform.position + new Vector3(0, 2,0);
-            particles.Play();
+            if (particles)
+            {
+                particles.Play();
+            }
             Debug.Log("checkpoint is gezet");
         }
     }

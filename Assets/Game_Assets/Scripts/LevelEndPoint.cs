@@ -10,13 +10,8 @@ public class LevelEndPoint : MonoBehaviour
     AudioSource audiosource; 
     void Start()
     {
+        particles = GetComponentInChildren<ParticleSystem>();   
         audiosource = GetComponent<AudioSource>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -24,6 +19,7 @@ public class LevelEndPoint : MonoBehaviour
         if (other.tag == "Player")
         {
             particles.Play();
+            audiosource.Play();
             Debug.Log("finished level");
         }
     }
