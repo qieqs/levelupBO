@@ -53,8 +53,8 @@ public class Deadzone : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(transform.position, transform.localScale);
 
-        //GUIStyle style = new GUIStyle();
-        //style.normal.textColor = Color.green;
-        //Handles.Label(spawnpointpos + new Vector3(0, 1.5f, 0), "Spawn Punt", style);
+        GUIStyle style = new GUIStyle();
+        style.normal.textColor = Color.green;
+        Handles.Label(spawnpointpos + new Vector3(0, 1.5f, 0), "Spawn Punt", style);
     }
 }
