@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{48806CDD-771C-D0F4-D7B5-13BF33583BA6}</ProjectGuid>
+    <ProjectGuid>{284DBC70-6067-BBA1-637B-463E9007AA07}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>URPWizard</AssemblyName>

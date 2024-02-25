@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BC320F33-3B05-4740-A990-4A5706ADAF8B}</ProjectGuid>
+    <ProjectGuid>{77488286-1B57-D4D0-17AE-C38ADD205F99}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -1063,15 +1063,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.StarterAssets.Editor.csproj">
-      <Project>{EC30790C-DB9E-12FF-8C48-3EAA36D44F04}</Project>
+      <Project>{59681F86-043A-B213-E3DE-8F2885B75B1F}</Project>
       <Name>Unity.StarterAssets.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="URPWizard.csproj">
-      <Project>{48806CDD-771C-D0F4-D7B5-13BF33583BA6}</Project>
+      <Project>{284DBC70-6067-BBA1-637B-463E9007AA07}</Project>
       <Name>URPWizard</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.StarterAssets.csproj">
-      <Project>{98D8AB83-CE44-8EE4-E425-D8F34ECA6641}</Project>
+      <Project>{EDAA34D8-F06A-26FC-A3BF-4F76BDE98222}</Project>
       <Name>Unity.StarterAssets</Name>
     </ProjectReference>
   </ItemGroup>

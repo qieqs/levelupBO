@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EC30790C-DB9E-12FF-8C48-3EAA36D44F04}</ProjectGuid>
+    <ProjectGuid>{59681F86-043A-B213-E3DE-8F2885B75B1F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.StarterAssets.Editor</AssemblyName>
@@ -970,7 +970,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.StarterAssets.csproj">
-      <Project>{98D8AB83-CE44-8EE4-E425-D8F34ECA6641}</Project>
+      <Project>{EDAA34D8-F06A-26FC-A3BF-4F76BDE98222}</Project>
       <Name>Unity.StarterAssets</Name>
     </ProjectReference>
   </ItemGroup>

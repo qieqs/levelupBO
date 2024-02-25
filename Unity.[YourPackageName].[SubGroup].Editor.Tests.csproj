@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BB542244-D77C-FDAB-D53C-CEB8A2539546}</ProjectGuid>
+    <ProjectGuid>{7EE337F5-6162-8E6A-A554-4F1EDE0A52AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.[YourPackageName].[SubGroup].Editor.Tests</AssemblyName>
